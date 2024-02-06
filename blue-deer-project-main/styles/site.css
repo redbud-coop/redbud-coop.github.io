@@ -1,0 +1,356 @@
+html {
+    background-color: #5c0808;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Helvetica','Arial',sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    background-color:#6e1a1a;
+    box-shadow: 0px 5px 10px 0px #acacac;
+    z-index: 10;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+    margin: 0 auto;
+    max-width: 1400px;
+    height: 80px;
+}
+
+header ul li {
+    font-size: 20px;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+}
+
+header ul li:hover {
+    background-color:#872020;
+    transition-duration: 0.4s;
+}
+
+header ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #e6d1d1;
+    display: block;
+    padding: 30px 0px;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(315deg) brightness(116%) contrast(102%);
+}
+
+footer {
+    background-color: #5c0808;
+    color: #e6d1d1;
+}
+
+button {
+    border: 2px solid #5c0808;
+    background-color: #e6d1d1;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #df9292;
+    transition-duration: 0.2s;
+}
+
+button:active {
+    background-color: #872020;
+}
+
+.rationale p{
+
+}
+
+div.flex-container picture img {
+    display: block;
+    box-sizing: border-box;
+}
+
+div.carousel picture img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-col {
+    flex-direction: column !important;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+}
+
+.carousel button {
+    margin: auto 8px;
+    height: 40px;
+}
+
+.amenities {
+    width: 160px;
+    height: 40px;
+    display: block;
+    margin: 20px 0px;
+}
+
+.content-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    margin-right: 20px;
+    width: 70%;
+}
+
+.right {
+    margin-left: 20px;
+    width: 30%;
+}
+
+.footer {
+    justify-content: space-evenly;
+}
+
+.footer-link {
+    margin: 0px 20px;
+    color: #e6d1d1;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+    transition-duration: 0.4s;
+    text-decoration: underline;
+}
+
+.title-link {
+    text-decoration: none;
+}
+
+.officers {
+    flex-wrap: wrap;
+}
+
+.officer {
+    padding: 0px 32px;
+    width: 200px;
+}
+
+.officer-name {
+    margin-bottom: 4px;
+}
+
+.officer-title {
+    margin: 4px 0px;
+}
+
+.accessible-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#mobile-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: calc(50% - 66px);
+}
+
+.hidden {
+    display: none !important;
+}
+
+#redbud-logo {
+    height: 48px;
+    filter: brightness(0) saturate(100%) invert(79%) sepia(12%) saturate(234%) hue-rotate(314deg) brightness(108%) contrast(91%);
+}
+
+#redbud-logo-mobile {
+    filter: brightness(0) saturate(100%) invert(79%) sepia(12%) saturate(234%) hue-rotate(314deg) brightness(108%) contrast(91%);
+    padding: 16px;
+    margin: auto;
+    display: block;
+}
+
+#room-types-heading {
+    margin-top: 0px;
+}
+
+#rb-home-link {
+    padding: 16px 0px;
+}
+
+#home-banner {
+    width: 100%;
+    height: auto;
+}
+
+#home-candids {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.home-candid {
+    max-width: 454px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+#footer-title {
+    margin: 20px 0px;
+}
+
+#footer-links {
+    margin: 20px 0px;
+}
+
+.cookgroup img {
+    max-width: 438px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.mosey img {
+    max-width: 438px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+#room-types {
+    margin-left: 40px;
+    width: fit-content;
+    max-width: 400px;
+}
+
+#hamburger {
+    height: 48px;
+    width: 48px;
+    display: block;
+    margin: 16px;
+    font-size: 20px;
+}
+
+#mobile-amenities {
+    border-bottom: solid 4px #5c0808;
+}
+
+#mobile-home {
+    border-top: solid 4px #5c0808;
+    border-bottom: solid 4px #5c0808;
+}
+
+#mobile-mosey {
+    border-bottom: solid 4px #5c0808;
+}
+
+#mobile-rules {
+    border-bottom: solid 4px #5c0808;
+}
+
+.photos {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.cook-group {
+    max-width: 470px;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+}
+
+.rules-buttons {
+    display: block;
+    padding: 10px;
+    width: 260px;
+    margin: 10px;
+    margin-left: 0px;
+    text-align: left;
+    font-size: 18px;
+}
+
+h3.rooms {
+    margin-bottom: 0px;
+}
+
+#mobile-header a:hover {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(315deg) brightness(116%) contrast(102%);
+
+}
+
+
+
+@media (max-width: 700px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .left {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .right {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .home-candid {
+        padding: 10px 0px;
+    }
+
+    #footer-links a {
+       margin: 10px 20px;
+    }
+
+    header ul {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    header ul li {
+        width: 100%;
+        text-align: left;
+    }
+
+    header ul li a {
+        margin-left: 40px;
+    }
+
+    #room-types {
+        margin-left: 0px;
+    }
+
+    #room-types-heading {
+        margin-top: 20px;
+    }
+}
